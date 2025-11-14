@@ -89,17 +89,17 @@
 
 /* Make sure the author avatar is properly sized */
 .author__avatar {
-  min-width: 280px !important;
-  max-width: 280px !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
   display: block !important;
 }
 
 .author__avatar img {
   display: block !important;
   border-radius: 0 !important;
-  width: 280px !important;
-  height: 280px !important;
-  min-width: 280px !important;
-  max-width: 280px !important;
+  width: 250px !important;
+  height: 250px !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
   object-fit: cover !important;
 }
