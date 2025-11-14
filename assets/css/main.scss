@@ -42,33 +42,19 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Fix for content overlapping with sidebar - ADJUSTED VERSION */
-
-/* Push main content to the right with minimal spacing */
+/* Close the gap between sidebar and content */
 .page {
   @media (min-width: 64em) {
-    width: calc(100% - 235px) !important;
-    padding-left: 240px !important;
-    margin-left: 0 !important;
-    float: right !important;
-  }
-  
-  @media (min-width: 80em) {
-    padding-left: 245px !important;
-    width: calc(100% - 245px) !important;
+    padding-left: 270px !important;
+    float: right;
+    width: calc(100% - 270px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 240px !important;
-    width: calc(100% - 240px) !important;
-    margin-left: 0 !important;
-  }
-  
-  @media (min-width: 80em) {
-    padding-left: 245px !important;
-    width: calc(100% - 245px) !important;
+    padding-left: 270px !important;
+    width: calc(100% - 270px) !important;
   }
 }
 
