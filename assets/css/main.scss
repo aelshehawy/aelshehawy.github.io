@@ -41,47 +41,64 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* Fix for content overlapping with sidebar - add this to your main CSS file */
 
-/* Push main content further right to avoid overlap with sidebar */
-@media (min-width: 64em) {
-  .page {
-    width: calc(100% - 400px) !important;
-    padding-left: 420px !important;
-    float: right;
+/* Fix for content overlapping with sidebar - ADJUSTED VERSION */
+
+/* Push main content to the right with proper spacing */
+.page {
+  @media (min-width: 64em) {
+    width: calc(100% - 350px) !important;
+    padding-left: 370px !important;
+    margin-left: 0 !important;
+    float: right !important;
   }
   
-  .archive {
-    padding-left: 420px !important;
-    width: calc(100% - 420px) !important;
+  @media (min-width: 80em) {
+    padding-left: 380px !important;
+    width: calc(100% - 380px) !important;
   }
 }
 
-@media (min-width: 80em) {
-  .page {
-    padding-left: 440px !important;
+.archive {
+  @media (min-width: 64em) {
+    padding-left: 370px !important;
+    width: calc(100% - 370px) !important;
+    margin-left: 0 !important;
   }
   
-  .archive {
-    padding-left: 440px !important;
+  @media (min-width: 80em) {
+    padding-left: 380px !important;
+    width: calc(100% - 380px) !important;
   }
 }
 
-/* Ensure sidebar stays at proper width */
+/* Make sidebar wide enough for 300px image with padding */
 .sidebar {
-  width: 380px !important;
+  @media (min-width: 64em) {
+    width: 350px !important;
+    max-width: 350px !important;
+    padding-right: 20px !important;
+  }
+  
+  @media (min-width: 80em) {
+    width: 360px !important;
+    max-width: 360px !important;
+  }
 }
 
 /* Make sure the author avatar is properly sized */
 .author__avatar {
-  min-width: 300px;
-  display: block;
+  min-width: 300px !important;
+  max-width: 300px !important;
+  display: block !important;
 }
 
 .author__avatar img {
-  display: block;
+  display: block !important;
   border-radius: 0 !important;
   width: 300px !important;
   height: 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
   object-fit: cover !important;
 }

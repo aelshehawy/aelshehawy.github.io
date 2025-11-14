@@ -26,6 +26,7 @@
 
   @include breakpoint($large) {
     @include span(4 of 12);  /* CHANGED: Increased from 3 to 4 to fully show 300px image */
+    width: 380px !important;  /* ADDED: Fixed width to ensure full image display */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -36,7 +37,8 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: 400px;  /* CHANGED: Increased to 400px to accommodate 300px image with padding */
+    max-width: 420px;  /* CHANGED: Increased to 420px to accommodate 300px image with padding */
+    width: 400px !important;  /* ADDED: Fixed width for larger screens */
     padding-right: 20px;  /* Add some right padding */
   }
 
