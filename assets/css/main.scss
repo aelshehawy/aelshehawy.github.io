@@ -47,59 +47,59 @@
 /* Push main content to the right with proper spacing */
 .page {
   @media (min-width: 64em) {
-    width: calc(100% - 310px) !important;
-    padding-left: 315px !important;
+    width: calc(100% - 295px) !important;
+    padding-left: 300px !important;
     margin-left: 0 !important;
     float: right !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 320px !important;
-    width: calc(100% - 320px) !important;
+    padding-left: 305px !important;
+    width: calc(100% - 305px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 315px !important;
-    width: calc(100% - 315px) !important;
+    padding-left: 300px !important;
+    width: calc(100% - 300px) !important;
     margin-left: 0 !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 320px !important;
-    width: calc(100% - 320px) !important;
+    padding-left: 305px !important;
+    width: calc(100% - 305px) !important;
   }
 }
 
-/* Make sidebar just wide enough for 300px image */
+/* Make sidebar just wide enough for 280px image */
 .sidebar {
   @media (min-width: 64em) {
-    width: 305px !important;
-    max-width: 305px !important;
+    width: 290px !important;
+    max-width: 290px !important;
     padding-right: 5px !important;
-    padding-left: 0px !important;
+    padding-left: 5px !important;
   }
   
   @media (min-width: 80em) {
-    width: 310px !important;
-    max-width: 310px !important;
+    width: 295px !important;
+    max-width: 295px !important;
   }
 }
 
 /* Make sure the author avatar is properly sized */
 .author__avatar {
-  min-width: 300px !important;
-  max-width: 300px !important;
+  min-width: 280px !important;
+  max-width: 280px !important;
   display: block !important;
 }
 
 .author__avatar img {
   display: block !important;
   border-radius: 0 !important;
-  width: 300px !important;
-  height: 300px !important;
-  min-width: 300px !important;
-  max-width: 300px !important;
+  width: 280px !important;
+  height: 280px !important;
+  min-width: 280px !important;
+  max-width: 280px !important;
   object-fit: cover !important;
 }
