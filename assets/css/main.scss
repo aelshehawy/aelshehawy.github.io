@@ -41,3 +41,47 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Fix for content overlapping with sidebar - add this to your main CSS file */
+
+/* Push main content further right to avoid overlap with sidebar */
+@media (min-width: 64em) {
+  .page {
+    width: calc(100% - 400px) !important;
+    padding-left: 420px !important;
+    float: right;
+  }
+  
+  .archive {
+    padding-left: 420px !important;
+    width: calc(100% - 420px) !important;
+  }
+}
+
+@media (min-width: 80em) {
+  .page {
+    padding-left: 440px !important;
+  }
+  
+  .archive {
+    padding-left: 440px !important;
+  }
+}
+
+/* Ensure sidebar stays at proper width */
+.sidebar {
+  width: 380px !important;
+}
+
+/* Make sure the author avatar is properly sized */
+.author__avatar {
+  min-width: 300px;
+  display: block;
+}
+
+.author__avatar img {
+  display: block;
+  border-radius: 0 !important;
+  width: 300px !important;
+  height: 300px !important;
+  object-fit: cover !important;
+}
