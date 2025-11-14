@@ -42,19 +42,40 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Close the gap between sidebar and content */
+/* Force sidebar to exact width and close gap */
+.sidebar {
+  @media (min-width: 64em) {
+    width: 260px !important;
+    min-width: 260px !important;
+    max-width: 260px !important;
+  }
+}
+
+/* Push content much closer to sidebar */
 .page {
   @media (min-width: 64em) {
-    padding-left: 270px !important;
-    float: right;
-    width: calc(100% - 270px) !important;
+    padding-left: 280px !important;
+    margin-left: 0 !important;
+    float: right !important;
+    width: calc(100% - 280px) !important;
+  }
+  
+  @media (min-width: 80em) {
+    padding-left: 285px !important;
+    width: calc(100% - 285px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 270px !important;
-    width: calc(100% - 270px) !important;
+    padding-left: 280px !important;
+    margin-left: 0 !important;
+    width: calc(100% - 280px) !important;
+  }
+  
+  @media (min-width: 80em) {
+    padding-left: 285px !important;
+    width: calc(100% - 285px) !important;
   }
 }
 
