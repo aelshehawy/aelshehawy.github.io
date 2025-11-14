@@ -25,7 +25,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);  /* CHANGED: Increased from 2 to 3 to accommodate larger 300px image */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -36,7 +36,7 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
+    max-width: 350px;  /* CHANGED: Increased from default to accommodate 300px image with padding */
     padding-right: 0;
   }
 
@@ -82,17 +82,12 @@
 
 .author__avatar img,
 .sidebar .author__avatar img,
-img.author__avatar,
-.author__avatar,
-.sidebar .author__avatar {
-  border-radius: 0 !important;
-  width: 600px !important;
-  height: 600px !important;
-  max-width: 600px !important;
-  max-height: 600px !important;
-  min-width: 600px !important;
-  min-height: 600px !important;
-  object-fit: cover !important;
+img.author__avatar {
+  border-radius: 0 !important;  /* Remove circular styling */
+  width: 300px !important;  /* Set to 300px */
+  height: 300px !important; /* Square at 300px */
+  object-fit: cover !important; /* Ensure image fills the space nicely */
+  max-width: 300px !important;  /* ADDED: Ensure it doesn't exceed 300px */
 }
 
 .author__content {
