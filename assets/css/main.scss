@@ -47,42 +47,43 @@
 /* Push main content to the right with proper spacing */
 .page {
   @media (min-width: 64em) {
-    width: calc(100% - 350px) !important;
-    padding-left: 370px !important;
+    width: calc(100% - 330px) !important;
+    padding-left: 340px !important;
     margin-left: 0 !important;
     float: right !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 380px !important;
-    width: calc(100% - 380px) !important;
+    padding-left: 350px !important;
+    width: calc(100% - 350px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 370px !important;
-    width: calc(100% - 370px) !important;
+    padding-left: 340px !important;
+    width: calc(100% - 340px) !important;
     margin-left: 0 !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 380px !important;
-    width: calc(100% - 380px) !important;
+    padding-left: 350px !important;
+    width: calc(100% - 350px) !important;
   }
 }
 
-/* Make sidebar wide enough for 300px image with padding */
+/* Make sidebar wide enough for 300px image with minimal padding */
 .sidebar {
   @media (min-width: 64em) {
-    width: 350px !important;
-    max-width: 350px !important;
-    padding-right: 20px !important;
+    width: 320px !important;
+    max-width: 320px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
   }
   
   @media (min-width: 80em) {
-    width: 360px !important;
-    max-width: 360px !important;
+    width: 330px !important;
+    max-width: 330px !important;
   }
 }
 
