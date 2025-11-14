@@ -26,7 +26,7 @@
 
   @include breakpoint($large) {
     @include span(3 of 12);  /* CHANGED: Back to 3 for smaller sidebar */
-    width: 245px !important;  /* CHANGED: Reduced to fit 240px image */
+    width: 230px !important;  /* CHANGED: Reduced to fit 220px image */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -37,8 +37,8 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: 250px;  /* CHANGED: Reduced to 250px */
-    width: 250px !important;  /* CHANGED: Fixed width for larger screens */
+    max-width: 235px;  /* CHANGED: Reduced to 235px */
+    width: 235px !important;  /* CHANGED: Fixed width for larger screens */
     padding-right: 5px;  /* Reduced padding */
   }
 
@@ -59,7 +59,7 @@
 
   img {
     width: 100%;
-    max-width: 240px;  /* CHANGED: Reduced to 240px */
+    max-width: 220px;  /* CHANGED: Reduced to 220px */
   }
 }
 
@@ -87,10 +87,10 @@
 .sidebar .author__avatar img,
 img.author__avatar {
   border-radius: 0 !important;  /* Remove circular styling */
-  width: 240px !important;  /* CHANGED: Set to 240px */
-  height: 240px !important; /* CHANGED: Square at 240px */
+  width: 220px !important;  /* CHANGED: Set to 220px */
+  height: 220px !important; /* CHANGED: Square at 220px */
   object-fit: cover !important; /* Ensure image fills the space nicely */
-  max-width: 240px !important;  /* CHANGED: Ensure it doesn't exceed 240px */
+  max-width: 220px !important;  /* CHANGED: Ensure it doesn't exceed 220px */
 }
 
 .author__content {

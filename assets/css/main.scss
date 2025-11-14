@@ -44,62 +44,36 @@
 
 /* Fix for content overlapping with sidebar - ADJUSTED VERSION */
 
-/* Push main content to the right with proper spacing */
+/* Push main content to the right with minimal spacing */
 .page {
   @media (min-width: 64em) {
-    width: calc(100% - 280px) !important;
-    padding-left: 285px !important;
+    width: calc(100% - 235px) !important;
+    padding-left: 240px !important;
     margin-left: 0 !important;
     float: right !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 290px !important;
-    width: calc(100% - 290px) !important;
+    padding-left: 245px !important;
+    width: calc(100% - 245px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 285px !important;
-    width: calc(100% - 285px) !important;
+    padding-left: 240px !important;
+    width: calc(100% - 240px) !important;
     margin-left: 0 !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 290px !important;
-    width: calc(100% - 290px) !important;
+    padding-left: 245px !important;
+    width: calc(100% - 245px) !important;
   }
 }
 
-/* Make sidebar just wide enough for 270px image */
-.sidebar {
-  @media (min-width: 64em) {
-    width: 280px !important;
-    max-width: 280px !important;
-    padding-right: 5px !important;
-    padding-left: 5px !important;
-  }
-  
-  @media (min-width: 80em) {
-    width: 285px !important;
-    max-width: 285px !important;
-  }
-}
-
-/* Make sure the author avatar is properly sized */
-.author__avatar {
-  min-width: 270px !important;
-  max-width: 270px !important;
-  display: block !important;
-}
-
-.author__avatar img {
-  display: block !important;
-  border-radius: 0 !important;
-  width: 270px !important;
-  height: 270px !important;
-  min-width: 270px !important;
-  max-width: 270px !important;
-  object-fit: cover !important;
+/* Hide the color scheme toggle button */
+.greedy-nav__toggle_theme,
+.masthead__menu-item--theme-toggle {
+  display: none !important;
 }
