@@ -25,7 +25,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(4 of 12);  /* CHANGED: Increased from 3 to 4 to fully show 300px image */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -36,8 +36,8 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    max-width: 400px;  /* CHANGED: Increased to 400px to accommodate 300px image with padding */
+    padding-right: 20px;  /* Add some right padding */
   }
 
   h2, h3, h4, h5, h6 {
@@ -57,6 +57,7 @@
 
   img {
     width: 100%;
+    max-width: 300px;  /* ADDED: Prevent image from exceeding 300px */
   }
 }
 
@@ -84,9 +85,10 @@
 .sidebar .author__avatar img,
 img.author__avatar {
   border-radius: 0 !important;  /* Remove circular styling */
-  width: 700px;  /* Make it larger */
-  height: 600px; /* Make it square */
-  object-fit: cover; /* Ensure image fills the space nicely */
+  width: 300px !important;  /* Set to 300px */
+  height: 300px !important; /* Square at 300px */
+  object-fit: cover !important; /* Ensure image fills the space nicely */
+  max-width: 300px !important;  /* ADDED: Ensure it doesn't exceed 300px */
 }
 
 .author__content {
