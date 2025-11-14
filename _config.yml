@@ -26,9 +26,9 @@ author:
   avatar           : "Elshehawy_headshot.jpeg"
   name             : "Ashrakat Elshehawy"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor"
+  bio              : "Assistant Professor at University College London"
   location         : "London, UK"
-  employer         : "University College London"
+  employer         : #"University College London"
   uri              : # URL
   email            : "a.elshehawy@ucl.ac.uk" 
 
