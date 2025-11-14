@@ -1,4 +1,4 @@
-/* ==========================================================================
+\/* ==========================================================================
    SIDEBAR
    ========================================================================== */
 
@@ -26,7 +26,10 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    min-width: 260px;  /* CHANGED: Increased to 260px to fully show 220px image with padding */
+    width: 260px !important;  /* ADDED: Force exact width */
+    min-width: 260px !important;
+    max-width: 260px !important;
+    overflow: visible !important;  /* ADDED: Ensure image isn't clipped */
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -37,7 +40,10 @@
   }
 
   @include breakpoint($x-large) {
-    min-width: 260px;  /* CHANGED: Increased to ensure full image display */
+    width: 260px !important;  /* ADDED: Force exact width */
+    min-width: 260px !important;
+    max-width: 260px !important;
+    overflow: visible !important;
     padding-right: 0;
   }
 
@@ -95,6 +101,7 @@ img.author__avatar {
   width: 220px !important;
   min-width: 220px !important;
   max-width: 220px !important;
+  overflow: visible !important;
 }
 
 .author__content {
