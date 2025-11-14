@@ -47,43 +47,43 @@
 /* Push main content to the right with proper spacing */
 .page {
   @media (min-width: 64em) {
-    width: calc(100% - 295px) !important;
-    padding-left: 300px !important;
+    width: calc(100% - 265px) !important;
+    padding-left: 270px !important;
     margin-left: 0 !important;
     float: right !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 305px !important;
-    width: calc(100% - 305px) !important;
+    padding-left: 275px !important;
+    width: calc(100% - 275px) !important;
   }
 }
 
 .archive {
   @media (min-width: 64em) {
-    padding-left: 300px !important;
-    width: calc(100% - 300px) !important;
+    padding-left: 270px !important;
+    width: calc(100% - 270px) !important;
     margin-left: 0 !important;
   }
   
   @media (min-width: 80em) {
-    padding-left: 305px !important;
-    width: calc(100% - 305px) !important;
+    padding-left: 275px !important;
+    width: calc(100% - 275px) !important;
   }
 }
 
-/* Make sidebar just wide enough for 280px image */
+/* Make sidebar just wide enough for 250px image */
 .sidebar {
   @media (min-width: 64em) {
-    width: 290px !important;
-    max-width: 290px !important;
+    width: 260px !important;
+    max-width: 260px !important;
     padding-right: 5px !important;
     padding-left: 5px !important;
   }
   
   @media (min-width: 80em) {
-    width: 295px !important;
-    max-width: 295px !important;
+    width: 265px !important;
+    max-width: 265px !important;
   }
 }
 
@@ -102,4 +102,10 @@
   min-width: 250px !important;
   max-width: 250px !important;
   object-fit: cover !important;
+}
+
+/* Hide the color scheme toggle button */
+.greedy-nav__toggle_theme,
+.masthead__menu-item--theme-toggle {
+  display: none !important;
 }
