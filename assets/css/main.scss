@@ -102,3 +102,20 @@
 .masthead__menu-item--theme-toggle {
   display: none !important;
 }
+
+/* Indent abstract toggle + download link to line up with text */
+.pub-abstract,
+.pub-link {
+  margin-left: 2.5rem;   /* tweak this value if you want more/less indent */
+}
+
+/* (Optional) make the summary look a bit nicer */
+.pub-abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* (Optional) remove extra default marker in some browsers */
+.pub-abstract summary::-webkit-details-marker {
+  margin-right: 0.3rem;
+}
