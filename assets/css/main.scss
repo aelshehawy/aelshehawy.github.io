@@ -47,11 +47,11 @@
   }
 }
 
-/* Add a slightly bigger gap between sidebar and content */
+/* Slight gap between sidebar and main content */
 .page,
 .archive {
   @media (min-width: 64em) {
-    margin-left: 300px !important; /* was 280 → gives a nicer gap */
+    margin-left: 290px !important; /* tweak 280–300px to taste */
     padding-left: 0 !important;
     width: auto !important;
     float: none !important;
@@ -59,79 +59,20 @@
 }
 
 /* ==========================================================================
-   MATCH FONT SIZE to Violeta Haas style
+   GLOBAL FONT SIZE + SPACING (smaller, like the example)
    ========================================================================== */
-
-.page {
-  font-size: 18px !important;
-  line-height: 1.6 !important;
-}
-
-.page h1, .page h2, .page h3 {
-  font-weight: 600 !important;
-}
-
-/* ==========================================================================
-   INDENT COLLAPSIBLE ABSTRACT + DOWNLOAD LINKS
-   ========================================================================== */
-
-/* Indent details/summary */
-.page details,
-.page summary,
-.page .abstract-block,
-.page .download-link {
-  margin-left: 2rem !important;  /* Adjust indentation */
-}
-
-/* Make “Show Abstract” align visually with text */
-.page summary {
-  cursor: pointer;
-  font-size: 17px;
-  padding: 0.3rem 0;
-}
-
-/* Indent the download link the same amount */
-.page a.download-link {
-  display: block;
-  margin-left: 2rem !important;
-  margin-top: 0.3rem;
-}
-
-/* Hide theme toggle in navbar */
-.greedy-nav__toggle,
-.greedy-nav__toggle_theme,
-.masthead__menu-item--theme-toggle {
-    display: none !important;
-}
-
-/* Indent abstract toggle + download link to line up with text */
-.pub-abstract,
-.pub-link {
-  margin-left: 2.5rem;   /* tweak this value if you want more/less indent */
-}
-
-/* (Optional) make the summary look a bit nicer */
-.pub-abstract summary {
-  cursor: pointer;
-  font-weight: 500;
-}
-
-/* (Optional) remove extra default marker in some browsers */
-.pub-abstract summary::-webkit-details-marker {
-  margin-right: 0.3rem;
-}
-
-/* ================================
-   GLOBAL FONT SIZE + SPACING FIX
-   Make body text smaller + cleaner
-   ================================ */
 
 body {
-  font-size: 17px !important;
-  line-height: 1.55 !important;
+  font-size: 16px !important;      /* smaller base font */
+  line-height: 1.6 !important;     /* comfortable reading line height */
 }
 
-/* Headers slightly reduced for better hierarchy */
+/* Paragraph spacing a bit tighter */
+p {
+  margin-bottom: 0.9rem !important;
+}
+
+/* Headings slightly scaled down for a softer look */
 h1, h2, h3, h4, h5 {
   line-height: 1.25 !important;
 }
@@ -148,7 +89,33 @@ h3 {
   font-size: 20px !important;
 }
 
-/* Paragraph spacing tighter */
-p {
-  margin-bottom: 0.9rem !important;
+/* ==========================================================================
+   COLLAPSIBLE ABSTRACT + DOWNLOAD LINK INDENT
+   ========================================================================== */
+
+/* Indent the abstract toggle + download link inside list items */
+li .pub-abstract,
+li .pub-link {
+  margin-left: 1.75rem;   /* adjust until it visually lines up with “– with …” */
+}
+
+/* Make the “Show Abstract” toggle look nice */
+.pub-abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Optional: tweak the ▶ marker spacing in WebKit browsers */
+.pub-abstract summary::-webkit-details-marker {
+  margin-right: 0.3rem;
+}
+
+/* ==========================================================================
+   NAVBAR CLEANUP
+   ========================================================================== */
+
+.greedy-nav__toggle,
+.greedy-nav__toggle_theme,
+.masthead__menu-item--theme-toggle {
+  display: none !important;
 }
