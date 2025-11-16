@@ -27,26 +27,23 @@ author_profile: true
 
 4. **The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting**  
 – with  [Arun Frey](https://arunfrey.github.io), [Violeta I. Haas](https://violeta-haas.github.io/), [Tobias Roemer](https://www.nuffield.ox.ac.uk/people/profiles/tobias-roemer/), [Sascha Riaz](https://saschariaz.com)  
-<details>
-  <summary><strong>Show Abstract</strong></summary>
+<details class="abstract-block">
+<summary>Show Abstract</summary>
 
 **Abstract:**  
-> What drives the supply of crime news? While prior research focuses on the news media, we study a crucial upstream gatekeeper of information: the police. We argue that the police act as strategic bureaucrats who increase the disclosure of out-group cues (ethnicity, nationality) when immigration is salient to signal competence and transparency to the public.  
->  
-> To test this, we use LLMs to annotate a dataset of about one million press releases from German police stations (2014–2024). Using a regression discontinuity in time design, we show (1) an increase in out-group cues after a nationwide immigration shock (Cologne New Year’s Eve events), and (2) more out-group cues just before regional elections where immigration is a salient issue.  
->  
-> Our findings show how bureaucratic discretion shapes politically charged information.
+What drives the supply of crime news? While prior research focuses on news media reporting, we study a crucial upstream gatekeeper of information: the police. We argue that the police act as strategic bureaucrats who increase the disclosure of out-group cues (ethnicity, nationality) when immigration is salient to signal transparency to the public. To test this, we use an LLM annotation pipeline to code out-group cues in about one million press releases published by local police stations across Germany (2014--2024). Using a regression discontinuity in time design, we demonstrate an increase in out-group cues in police communications (1) following a nationwide shock to immigration salience (the 2015/16 Cologne New Year's Eve sexual assaults), and (2) in the days before regional state elections in which immigration is a salient campaign issue. Our findings demonstrate how bureaucratic discretion shapes the supply of politically charged information.
+
 
 </details>
-[Download Working Paper](https://doi.org/10.31235/osf.io/trhys_v1)
 
+<a class="download-link" href="https://doi.org/10.31235/osf.io/trhys_v1">Download Working Paper</a>
 
 5. **Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches**
-<details>
-  <summary><strong>Show Abstract</strong></summary>
+<details class="abstract-block">
+<summary>Show Abstract</summary>
 
 **Abstract:**  
-> Why do country leaders assume greater salience to outsiders in some - but not other, cases
+Why do country leaders assume greater salience to outsiders in some - but not other, cases
 in international relations? The election interventions literature has argued that when the pol-
 icy positions of candidates running in elections grow further apart, outsiders are more likely
 to back the candidates they find most congruent, by using direct support of a candidate (via
@@ -63,6 +60,7 @@ elected. Our method and measure can help advance research on the importance of i
 in politics more broadly.
 
 </details>
+
 
 
 

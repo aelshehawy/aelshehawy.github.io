@@ -1,11 +1,6 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- * The order of imports matters.
- */
-
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -41,52 +36,9 @@
 ;
 
 /* ==========================================================================
-   TYPOGRAPHY OVERRIDES (font + size similar to example site)
+   SIDEBAR WIDTH + PAGE GAP
    ========================================================================== */
 
-:root {
-  font-size: 16px; /* base size */
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
-  font-size: 1rem;          /* 16px */
-  line-height: 1.7;
-}
-
-/* Main content text */
-.page__content p {
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-/* Headings – keep them clean and sans serif */
-h1, h2, h3, h4, h5, h6,
-.page__title,
-.site-title {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
-}
-
-/* Slightly bolder main title */
-.page__title {
-  font-weight: 700;
-}
-
-/* Navbar */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               Helvetica, Arial, sans-serif;
-}
-
-/* ==========================================================================
-   SIDEBAR + LAYOUT TWEAKS (wider gap)
-   ========================================================================== */
-
-/* Fix sidebar width (matches larger photo) */
 .sidebar {
   @media (min-width: 64em) {
     width: 260px !important;
@@ -95,36 +47,58 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-/* Move content a bit further to the right for a nicer gap */
-.page {
-  @media (min-width: 64em) {
-    margin-left: 300px !important;   /* 260px sidebar + 40px gap */
-    padding-left: 0 !important;
-    float: none !important;
-    width: auto !important;
-  }
-}
-
+/* Add a slightly bigger gap between sidebar and content */
+.page,
 .archive {
   @media (min-width: 64em) {
-    margin-left: 300px !important;
+    margin-left: 300px !important; /* was 280 → gives a nicer gap */
     padding-left: 0 !important;
     width: auto !important;
+    float: none !important;
   }
 }
 
 /* ==========================================================================
-   NAVBAR ICONS (hide gear / theme toggle)
+   MATCH FONT SIZE to Violeta Haas style
    ========================================================================== */
 
-/* Hide any theme toggle items we know about */
-.greedy-nav__toggle_theme,
-.masthead__menu-item--theme-toggle {
-  display: none !important;
+.page {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
 }
 
-/* Hide Font Awesome gear icons in the masthead (your blue gear) */
-.masthead .fa-gear,
-.masthead .fa-cog {
+.page h1, .page h2, .page h3 {
+  font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   INDENT COLLAPSIBLE ABSTRACT + DOWNLOAD LINKS
+   ========================================================================== */
+
+/* Indent details/summary */
+.page details,
+.page summary,
+.page .abstract-block,
+.page .download-link {
+  margin-left: 2rem !important;  /* Adjust indentation */
+}
+
+/* Make “Show Abstract” align visually with text */
+.page summary {
+  cursor: pointer;
+  font-size: 17px;
+  padding: 0.3rem 0;
+}
+
+/* Indent the download link the same amount */
+.page a.download-link {
+  display: block;
+  margin-left: 2rem !important;
+  margin-top: 0.3rem;
+}
+
+/* Hide theme toggle in navbar */
+.greedy-nav__toggle_theme,
+.masthead__menu-item--theme-toggle {
   display: none !important;
 }
