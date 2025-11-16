@@ -2,7 +2,7 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
+ * This file controls what is imported from /_sass.
  * The order of imports matters.
  */
 
@@ -41,10 +41,10 @@
 ;
 
 /* ==========================================================================
-   SIDEBAR + PAGE FIXES
+   CUSTOM SPACING + SIDEBAR LAYOUT TWEAKS
    ========================================================================== */
 
-/* Sidebar width (matches your avatar) */
+/* Sidebar width */
 .sidebar {
   @media (min-width: 64em) {
     width: 260px !important;
@@ -53,10 +53,10 @@
   }
 }
 
-/* Page content spacing — adjust margin-left to change the gap */
+/* More spacing (adjust margin-left to increase gap) */
 .page {
   @media (min-width: 64em) {
-    margin-left: 300px !important;  /* <<– increase this for more gap */
+    margin-left: 300px !important;   /* ← increased gap (300px) */
     padding-left: 0 !important;
     float: none !important;
     width: auto !important;
@@ -65,14 +65,80 @@
 
 .archive {
   @media (min-width: 64em) {
-    margin-left: 300px !important; /* same gap for archive pages */
+    margin-left: 300px !important;
     padding-left: 0 !important;
     width: auto !important;
   }
 }
 
-/* Hide theme toggle buttons */
+/* Hide theme toggle */
 .greedy-nav__toggle_theme,
 .masthead__menu-item--theme-toggle {
   display: none !important;
+}
+
+
+/* ==========================================================================
+   TYPOGRAPHY OVERRIDES TO MATCH THE SECOND IMAGE
+   (cleaner, modern, lighter like Inter / Helvetica)
+   ========================================================================== */
+
+/* Use a cleaner sans-serif stack similar to the site you like */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Helvetica, Arial, sans-serif !important;
+  font-size: 17px !important;
+  line-height: 1.55 !important;
+  color: #222 !important;
+}
+
+/* Headings similar to the Violeta Haas page */
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Helvetica, Arial, sans-serif !important;
+  font-weight: 600 !important;
+  color: #111 !important;
+  line-height: 1.25 !important;
+}
+
+h1 {
+  font-size: 32px !important;
+  margin-bottom: 0.4em !important;
+}
+
+h2 {
+  font-size: 26px !important;
+  margin-top: 1.5em !important;
+}
+
+h3 {
+  font-size: 22px !important;
+}
+
+/* Paragraph spacing similar to example */
+p {
+  margin-bottom: 1.1em !important;
+  font-size: 17px !important;
+}
+
+/* Sidebar font style */
+.sidebar p, .sidebar li {
+  font-size: 15px !important;
+}
+
+/* Make sidebar name slightly larger */
+.sidebar .author__name {
+  font-size: 19px !important;
+  font-weight: 600 !important;
+}
+
+/* Make links same color style */
+a {
+  color: #0066cc !important;
+}
+
+/* Reduce nav bar font weight (cleaner look) */
+.greedy-nav a {
+  font-weight: 500 !important;
+  font-size: 15px !important;
 }
