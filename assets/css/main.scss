@@ -120,3 +120,35 @@
 .pub-abstract summary::-webkit-details-marker {
   margin-right: 0.3rem;
 }
+
+/* ================================
+   GLOBAL FONT SIZE + SPACING FIX
+   Make body text smaller + cleaner
+   ================================ */
+
+body {
+  font-size: 17px !important;
+  line-height: 1.55 !important;
+}
+
+/* Headers slightly reduced for better hierarchy */
+h1, h2, h3, h4, h5 {
+  line-height: 1.25 !important;
+}
+
+h1 {
+  font-size: 30px !important;
+}
+
+h2 {
+  font-size: 24px !important;
+}
+
+h3 {
+  font-size: 20px !important;
+}
+
+/* Paragraph spacing tighter */
+p {
+  margin-bottom: 0.9rem !important;
+}
