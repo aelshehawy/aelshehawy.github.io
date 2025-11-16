@@ -119,3 +119,16 @@ li .pub-link {
 .masthead__menu-item--theme-toggle {
   display: none !important;
 }
+
+/* Make publication titles smaller */
+.archive__item-title {
+  font-size: 1.1rem !important;   /* You can adjust this */
+  line-height: 1.3 !important;
+  font-weight: 600 !important;    /* Optional: makes it look like your example */
+}
+
+/* Make the abstract text smaller too (optional) */
+.archive__item-excerpt {
+  font-size: 0.95rem !important;
+  line-height: 1.4 !important;
+}
