@@ -5,11 +5,23 @@ permalink: /research/
 author_profile: true
 ---
 
-1. **The Importance of a Liberal Power’s Attention to Democratic Elections Around the World. Journal of Politics**
+#**Publications**
+
+1. **The Importance of a Liberal Power’s Attention to Democratic Elections Around the World.**. _Journal of Politics_
 -- with [Johannes Bubeck](https://sites.google.com/view/johannesbubeck), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni)
 
-2. **Illiberal Communication and Election Intervention During the Refugee Crisis in Germany. Perspectives on Politics**
+
+
+2. **[Illiberal Communication and Election Intervention During the Refugee Crisis in Germany](https://www.cambridge.org/core/journals/perspectives-on-politics/article/illiberal-communication-and-election-intervention-during-the-refugee-crisis-in-germany/67D75BA42AD1EC04109A80F711A0A882)**_Perspectives on Politics_.
 -- with [Konstantin Gavras](https://konstantin.gavras.de/), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Harald Schön](https://www.sowi.uni-mannheim.de/schoen/)
+
+   <details class="pub-abstract">
+     <summary>Show Abstract</summary>
+     <p><strong>Abstract:</strong> Populist discourse—which tends to benefit anti-systemic parties—has been on the rise in the world’s democratic states. Powerful non-democratic states have both the means and the incentive to spread such discourse to democratic states. We clarify the incentives illiberal states have to produce such communication, and delineate how this type of political communication fuses traditional state-to-state propaganda with election interventions. We draw on the case of Kremlin-sponsored communication on the issue of refugees in Germany to illustrate the mechanisms through which the discourse operates in target countries. We create a corpus of over a million news stories to identify the prevalence of illiberal discourse and its timing relative to Germany’s elections. We show that the Kremlin intervened in the 2017 federal elections by promoting refugee stories over and above the rate at which German outlets did. We discuss the broader implications for the use of directed political communication as a form of election intervention.</p>
+   </details>
+
+\\
+
 
 
 3. **SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions. Journal of Peace Research**
