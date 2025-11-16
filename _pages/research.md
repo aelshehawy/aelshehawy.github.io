@@ -6,23 +6,26 @@ author_profile: true
 ---
 
 ## **Publications**   
-**The Importance of a Liberal Power’s Attention to Democratic Elections Around the World. Journal of Politics**
--- with Konstantin Gavras, Nikolay Marinov, Federico Nanni, Harald Schön
+1. **The Importance of a Liberal Power’s Attention to Democratic Elections Around the World. Journal of Politics**
+-- with [Johannes Bubeck](https://sites.google.com/view/johannesbubeck), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni)
 
-**Illiberal Communication and Election Intervention During the Refugee Crisis in Germany. Perspectives on Politics**
+2. **Illiberal Communication and Election Intervention During the Refugee Crisis in Germany. Perspectives on Politics**
+-- with [Konstantin Gavras](https://konstantin.gavras.de/), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Harald Schön](https://www.sowi.uni-mannheim.de/schoen/)
 
-**SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions. Journal of Peace Research**
+
+3. **SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions. Journal of Peace Research**
+-- with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Jordan Tama](https://www.jordantama.com/)
 
 ## **Working Papers**   
 
-**Religious Minorities and Public Service Provision: Education in 19th and 20th Century Egypt**  
+1. **Religious Minorities and Public Service Provision: Education in 19th and 20th Century Egypt**  
 -- with [Mohamed Saleh](https://sites.google.com/site/mohamedsalehecon/home)
 
-**Missionaries on the Nile: Exposure to Foreign Missions and Women’s Developmental Outcomes and Social Norms in Egypt**      
+2. **Missionaries on the Nile: Exposure to Foreign Missions and Women’s Developmental Outcomes and Social Norms in Egypt**      
 
-**Agrarian Colonial Policies and Public Health: Evidence from 19th Century Egypt**
+3. **Agrarian Colonial Policies and Public Health: Evidence from 19th Century Egypt**
 
-**The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting**  
+4. **The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting**  
 – with  [Arun Frey](https://arunfrey.github.io), [Violeta I. Haas](https://violeta-haas.github.io/), [Tobias Roemer](https://www.nuffield.ox.ac.uk/people/profiles/tobias-roemer/), [Sascha Riaz](https://saschariaz.com)  
 <details>
   <summary><strong>Show Abstract</strong></summary>
@@ -38,7 +41,7 @@ author_profile: true
 [Download Working Paper](https://doi.org/10.31235/osf.io/trhys_v1)
 
 
-**Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches**
+5. **Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches**
 <details>
   <summary><strong>Show Abstract</strong></summary>
 
