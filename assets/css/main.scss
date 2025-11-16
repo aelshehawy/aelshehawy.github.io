@@ -98,9 +98,10 @@
 }
 
 /* Hide theme toggle in navbar */
+.greedy-nav__toggle,
 .greedy-nav__toggle_theme,
 .masthead__menu-item--theme-toggle {
-  display: none !important;
+    display: none !important;
 }
 
 /* Indent abstract toggle + download link to line up with text */
