@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
+# Publications
 
 1. **[The Importance of a Liberal Power’s Attention to Democratic Elections Around the World.](https://www.journals.uchicago.edu/doi/abs/10.1086/734276?journalCode=jop)**  _Journal of Politics_
 -- with [Johannes Bubeck](https://sites.google.com/view/johannesbubeck), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni)
