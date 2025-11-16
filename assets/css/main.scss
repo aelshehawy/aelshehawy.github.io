@@ -72,21 +72,9 @@ p {
   margin-bottom: 0.9rem !important;
 }
 
-/* Headings slightly scaled down for a softer look */
+/* Base heading line-height */
 h1, h2, h3, h4, h5 {
   line-height: 1.25 !important;
-}
-
-h1 {
-  font-size: 30px !important;
-}
-
-h2 {
-  font-size: 24px !important;
-}
-
-h3 {
-  font-size: 20px !important;
 }
 
 /* ==========================================================================
@@ -120,15 +108,53 @@ li .pub-link {
   display: none !important;
 }
 
-/* Make publication titles smaller */
+/* ==========================================================================
+   PUBLICATION TITLES + ABSTRACT TEXT
+   ========================================================================== */
+
 .archive__item-title {
-  font-size: 1.1rem !important;   /* You can adjust this */
+  font-size: 1.1rem !important;
   line-height: 1.3 !important;
-  font-weight: 600 !important;    /* Optional: makes it look like your example */
+  font-weight: 600 !important;
 }
 
-/* Make the abstract text smaller too (optional) */
 .archive__item-excerpt {
   font-size: 0.95rem !important;
   line-height: 1.4 !important;
+}
+
+/* ==========================================================================
+   PAGE HEADING OVERRIDES (shrink # titles)
+   ========================================================================== */
+
+/* Main page content area headings – higher specificity than theme */
+.page .page__content h1,
+.page__content h1 {
+  font-size: 26px !important;   /* main titles like “Welcome to my Website” */
+  font-weight: 600 !important;
+}
+
+.page .page__content h2,
+.page__content h2 {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+
+.page .page__content h3,
+.page__content h3 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+/* Also catch headings that may appear inside article/archive blocks */
+.page h1, .archive h1 {
+  font-size: 26px !important;
+}
+
+.page h2, .archive h2 {
+  font-size: 22px !important;
+}
+
+.page h3, .archive h3 {
+  font-size: 18px !important;
 }
