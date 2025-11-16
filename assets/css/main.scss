@@ -3,9 +3,7 @@
 
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * The order of imports matters.
  */
 
 @import
@@ -42,7 +40,11 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Force sidebar to exact width and close gap */
+/* ==========================================================================
+   Custom fixes for sidebar width and gap
+   ========================================================================== */
+
+/* Ensure sidebar has fixed width (matches your enlarged photo) */
 .sidebar {
   @media (min-width: 64em) {
     width: 260px !important;
@@ -51,35 +53,36 @@
   }
 }
 
-/* Push content much closer to sidebar */
+/* Move the main content closer — NO padding-left (this created the huge gap) */
 .page {
   @media (min-width: 64em) {
-    padding-left: 280px !important;
-    margin-left: 0 !important;
-    float: right !important;
-    width: calc(100% - 280px) !important;
+    margin-left: 280px !important;   /* sidebar width + small spacing */
+    padding-left: 0 !important;      /* remove inner padding that created gap */
+    float: none !important;
+    width: auto !important;
   }
-  
+
   @media (min-width: 80em) {
-    padding-left: 285px !important;
-    width: calc(100% - 285px) !important;
+    margin-left: 280px !important;
+    padding-left: 0 !important;
   }
 }
 
+/* Same fix for archives pages */
 .archive {
   @media (min-width: 64em) {
-    padding-left: 280px !important;
-    margin-left: 0 !important;
-    width: calc(100% - 280px) !important;
+    margin-left: 280px !important;
+    padding-left: 0 !important;
+    width: auto !important;
   }
-  
+
   @media (min-width: 80em) {
-    padding-left: 285px !important;
-    width: calc(100% - 285px) !important;
+    margin-left: 280px !important;
+    padding-left: 0 !important;
   }
 }
 
-/* Hide the color scheme toggle button */
+/* Hide the color scheme toggle */
 .greedy-nav__toggle_theme,
 .masthead__menu-item--theme-toggle {
   display: none !important;
