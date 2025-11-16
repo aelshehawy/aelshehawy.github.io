@@ -15,6 +15,11 @@ author_profile: true
 3. **SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions. Journal of Peace Research**
 -- with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Jordan Tama](https://www.jordantama.com/)
 
+# **Non-Peer Reviewed Publications**
+
+4. **[Using Historical Maps for MENA Political Science Research. American Political Science Association (APSA) MENA Politics Newsletter](https://apsamena.org/wp-content/uploads/2021/04/10.-Elshehawy_finalcorrections-FINAL.pdf)**
+
+
 # **Working Papers**
 
 1. **Religious Minorities and Public Service Provision: Education in 19th and 20th Century Egypt**  
@@ -43,8 +48,5 @@ author_profile: true
      <p><strong>Abstract:</strong> Why do country leaders assume greater salience to outsiders in some – but not other – cases in international relations? The election interventions literature has argued that when the policy positions of candidates running in elections grow further apart, outsiders are more likely to back the candidates they find most congruent, by using direct support of a candidate (via promises of aid, for example) or by calibrating support for democratic processes in a country to make the victory of the preferred candidate more likely. We build on this research agenda to argue that policy polarization in a country will increase the salience of individual leaders to outside actors: it now literally makes a difference who will be in power. Noticing – and supporting – leaders becomes important. We test our argument about leader salience by scraping speeches made on the floor of U.S. Congress and leveraging innovative Natural Language Processing methods. We show that policy divergence between the positions of candidates running in elections abroad gets them more personal recognition in Congress. We also show that leader mentions contain words that are associated with an interest in helping foreign leaders get elected. Our method and measure can help advance research on the importance of individuals in politics more broadly.</p>
    </details>
 
-   <p class="pub-link">
-     <a href="https://doi.org/10.31235/osf.io/trhys_v1">Download Working Paper</a>
-   </p>
-
+ 
 # **Working in Progress**
