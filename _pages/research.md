@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-1. **[The Importance of a Liberal Power’s Attention to Democratic Elections Around the World.](https://www.journals.uchicago.edu/doi/abs/10.1086/734276?journalCode=jop)**  _Journal of Politics_
+1. [The Importance of a Liberal Power’s Attention to Democratic Elections Around the World.](https://www.journals.uchicago.edu/doi/abs/10.1086/734276?journalCode=jop)  _Journal of Politics_
 -- with [Johannes Bubeck](https://sites.google.com/view/johannesbubeck), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni)
 
    <details class="pub-abstract">
@@ -17,7 +17,7 @@ author_profile: true
 
 
 
-2. **[Illiberal Communication and Election Intervention During the Refugee Crisis in Germany](https://www.cambridge.org/core/journals/perspectives-on-politics/article/illiberal-communication-and-election-intervention-during-the-refugee-crisis-in-germany/67D75BA42AD1EC04109A80F711A0A882)**. _Perspectives on Politics_.
+2. [Illiberal Communication and Election Intervention During the Refugee Crisis in Germany](https://www.cambridge.org/core/journals/perspectives-on-politics/article/illiberal-communication-and-election-intervention-during-the-refugee-crisis-in-germany/67D75BA42AD1EC04109A80F711A0A882). _Perspectives on Politics_.
 -- with [Konstantin Gavras](https://konstantin.gavras.de/), [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Harald Schön](https://www.sowi.uni-mannheim.de/schoen/)
 
    <details class="pub-abstract">
@@ -28,7 +28,7 @@ author_profile: true
 
 
 
-3. **[SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions.](https://journals.sagepub.com/doi/10.1177/00223433221088712)* _Journal of Peace Research*_
+3. [SASCAT: Natural Language Processing Approach to the Study of Economic Sanctions.](https://journals.sagepub.com/doi/10.1177/00223433221088712) _Journal of Peace Research_
 -- with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Jordan Tama](https://www.jordantama.com/)
 
    <details class="pub-abstract">
@@ -40,19 +40,19 @@ author_profile: true
 
 # **Non-Peer Reviewed Publications**
 
-4. **[Using Historical Maps for MENA Political Science Research. American Political Science Association (APSA) MENA Politics Newsletter](https://apsamena.org/wp-content/uploads/2021/04/10.-Elshehawy_finalcorrections-FINAL.pdf)**
+4. [Using Historical Maps for MENA Political Science Research. American Political Science Association (APSA) MENA Politics Newsletter](https://apsamena.org/wp-content/uploads/2021/04/10.-Elshehawy_finalcorrections-FINAL.pdf)
 
 
 # **Working Papers**
 
-1. **Religious Minorities and Public Service Provision: Education in 19th and 20th Century Egypt**  
+1. Religious Minorities and Public Service Provision: Education in 19th and 20th Century Egypt. 
    – with [Mohamed Saleh](https://sites.google.com/site/mohamedsalehecon/home)
 
-2. **Missionaries on the Nile: Exposure to Foreign Missions and Women’s Developmental Outcomes and Social Norms in Egypt**
+2. Missionaries on the Nile: Exposure to Foreign Missions and Women’s Developmental Outcomes and Social Norms in Egypt.
 
-3. **Agrarian Colonial Policies and Public Health: Evidence from 19th Century Egypt**
+3. Agrarian Colonial Policies and Public Health: Evidence from 19th Century Egypt.
 
-4. **The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting**  
+4. The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting.
    – with  [Arun Frey](https://arunfrey.github.io), [Violeta I. Haas](https://violeta-haas.github.io/), [Tobias Roemer](https://www.nuffield.ox.ac.uk/people/profiles/tobias-roemer/), [Sascha Riaz](https://saschariaz.com)  
 
    <details class="pub-abstract">
@@ -64,7 +64,8 @@ author_profile: true
      <a href="https://doi.org/10.31235/osf.io/trhys_v1">Download Working Paper</a>
    </p>
 
-5. **Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches**
+5. Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches.
+- with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Ines Rehbein](https://www.uni-mannheim.de/dws/people/researchers/postdoctoral-research-fellows/dr-ines-rehbein/)
 
    <details class="pub-abstract">
      <summary>Show Abstract</summary>
