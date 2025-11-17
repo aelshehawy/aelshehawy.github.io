@@ -63,7 +63,7 @@ author_profile: true
 
 
 5. Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches.
-- with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Ines Rehbein](https://www.uni-mannheim.de/dws/people/researchers/postdoctoral-research-fellows/dr-ines-rehbein/)
+ – with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Ines Rehbein](https://www.uni-mannheim.de/dws/people/researchers/postdoctoral-research-fellows/dr-ines-rehbein/)
 
    <details class="pub-abstract">
      <summary>Show Abstract</summary>
