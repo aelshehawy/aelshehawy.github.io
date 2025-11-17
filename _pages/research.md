@@ -52,7 +52,7 @@ author_profile: true
 
 3. Agrarian Colonial Policies and Public Health: Evidence from 19th Century Egypt.
 
-4. The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting.
+4. [The Police as Gatekeepers of Information: Immigration Salience and Selective Crime Reporting.](https://doi.org/10.31235/osf.io/trhys_v1">Download Working Paper)
    – with  [Arun Frey](https://arunfrey.github.io), [Violeta I. Haas](https://violeta-haas.github.io/), [Tobias Roemer](https://www.nuffield.ox.ac.uk/people/profiles/tobias-roemer/), [Sascha Riaz](https://saschariaz.com)  
 
    <details class="pub-abstract">
@@ -60,9 +60,7 @@ author_profile: true
      <p><strong>Abstract:</strong> What drives the supply of crime news? While prior research focuses on the news media, we study a crucial upstream gatekeeper of information: the police. We argue that the police act as strategic bureaucrats who increase the disclosure of out-group cues (ethnicity, nationality) when immigration is salient to signal competence and transparency to the public. To test this, we use LLMs to annotate a novel dataset of about one million press releases published by local police stations across Germany between 2014 and 2024. Using a regression discontinuity in time design, we demonstrate an increase in out-group cues in police communications (1) following a nationwide shock to immigration salience (the 2015/16 Cologne New Year's Eve assaults), and (2) in the days before regional elections in which immigration is a salient campaign issue. Our findings demonstrate how bureaucratic discretion shapes the supply of politically charged information.</p>
    </details>
 
-   <p class="pub-link">
-     <a href="https://doi.org/10.31235/osf.io/trhys_v1">Download Working Paper</a>
-   </p>
+
 
 5. Named-Entity Recognition with Application to Foreign Leader Mentions in Congressional Speeches.
 - with [Nikolay Marinov](https://www.gu.se/en/about/find-staff/nikolaymarinov), [Federico Nanni](https://www.turing.ac.uk/people/researchers/federico-nanni), [Ines Rehbein](https://www.uni-mannheim.de/dws/people/researchers/postdoctoral-research-fellows/dr-ines-rehbein/)
