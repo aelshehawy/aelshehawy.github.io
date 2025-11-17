@@ -73,6 +73,6 @@ author_profile: true
    </details>
 
  
-# **Working in Progress**
+# **Work in Progress**
 
 # **Pre-PhD Working Paper**
