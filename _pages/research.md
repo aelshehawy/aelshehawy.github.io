@@ -71,6 +71,17 @@ author_profile: true
    </details>
 
  
-# **Work in Progress**
+# **Selected Work in Progress**
+
+1. Quality in Service Provision, Citizen Complaints, and Local Accountability: Evidence from Turkey 
+- with Tugba Bozcaga, Rabia Kutlu
+
+2. 
 
 # **Pre-PhD Working Paper**
+
+1. "Binding Hands or Granting Discretion: Congress, the President, and U.S. Human Rights Sanc-
+tions Human Rights Standards" (with Daniela Donno, Nikolay Marinov, and Federico Nanni)
+
+2. "Congress, the President, and the Design of Economic Sanctions" (with Nikolay Marinov, Federico
+Nanni, and Jordan Tama
