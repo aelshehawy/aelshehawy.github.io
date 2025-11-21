@@ -221,7 +221,7 @@ kramdown:
 collections:
   teaching:
     output: true
-    permalink: /teaching/
+    permalink: /teaching_ash/
   publications:
     output: true
     permalink: /:collection/:path/
